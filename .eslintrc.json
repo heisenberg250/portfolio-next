@@ -1,0 +1,18 @@
+{
+  "plugins": ["@typescript-eslint", "eslint-plugin-prettier"],
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
+    "eslint-config-prettier"
+  ],
+  "root": true,
+  "ignorePatterns": ["public/static"],
+  "rules": {
+    "prettier/prettier": "error",
+    "linebreak-style": ["error", "unix"],
+    "semi": ["error", "always"],
+    "prefer-const": "error",
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-explicit-any": "error"
+  }
+}
