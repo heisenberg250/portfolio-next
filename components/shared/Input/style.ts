@@ -16,4 +16,7 @@ export const input = css({
   "::placeholder": {
     color: colors.INPUT_FADED,
   },
+  test: {
+    color: "red"
+  }
 });
